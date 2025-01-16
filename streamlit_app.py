@@ -5,7 +5,7 @@ import json
 # Configuración de MQTT para TTN
 MQTT_BROKER = "nam1.cloud.thethings.network"  # Cambia según tu región
 MQTT_PORT = 8883  # Usando conexión TLS
-MQTT_TOPIC = "v3/your-application-id@your-tenant-id/devices/+/up"  # Tópico para todos los nodos
+MQTT_TOPIC = "#"  # Tópico para todos los nodos
 MQTT_USER = "mediciondeparticulas@ttn"  # Tu ID de aplicación
 MQTT_PASSWORD = "NNSXS.2DRR43EO3UVIOH5HM4TKT3NXVCK4BQWNDPQHIXQ.IINYNHMOMIJ6IS7Z5MZL6LTBSHS3YEESYL3DPO46NOBYI7NADV2A"  # Tu API Key generada en TTN Console
 
